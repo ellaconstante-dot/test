@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAPON KITA - Smart Waste Management</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h2>♻ TAPON KITA</h2>
+        <p>Smart Waste Management</p>
+
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#schedule">Collection Schedule</a>
+            <a href="#bins">Smart Bin Monitoring</a>
+            <a href="#routes">Collection Routes</a>
+            <a href="#rewards">QR Rewards</a>
+        </nav>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <header>
+            <h1>Dashboard</h1>
+            <p>Welcome to the Smart Waste Management System!</p>
+        </header>
+
+        <!-- DASHBOARD -->
+        <section id="dashboard">
+            <h2>Overview</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Collection Schedule</h3>
+                    <p>Monday and Thursday</p>
+                </div>
+
+                <div class="card">
+                    <h3>Biodegradable Bin</h3>
+                    <p>65% Full</p>
+                </div>
+
+                <div class="card">
+                    <h3>Non-Biodegradable Bin</h3>
+                    <p>40% Full</p>
+                </div>
+
+                <div class="card">
+                    <h3>Reward Points</h3>
+                    <p>120 Points</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- COLLECTION SCHEDULE -->
+        <section id="schedule">
+            <h2>Collection Schedule</h2>
+            <div class="card">
+                <p>Monday - Biodegradable Waste</p>
+                <p>Thursday - Non-Biodegradable Waste</p>
+            </div>
+        </section>
+
+        <!-- SMART BINS -->
+        <section id="bins">
+            <h2>Smart Bin Monitoring</h2>
+
+            <div class="card">
+                <h3>Biodegradable Bin</h3>
+                <div class="progress">
+                    <div class="progress-fill" style="width: 65%"></div>
+                </div>
+                <p>65% Capacity</p>
+            </div>
+
+            <div class="card">
+                <h3>Non-Biodegradable Bin</h3>
+                <div class="progress">
+                    <div class="progress-fill" style="width: 40%"></div>
+                </div>
+                <p>40% Capacity</p>
+            </div>
+        </section>
+
+        <!-- COLLECTION ROUTES -->
+        <section id="routes">
+            <h2>Collection Routes</h2>
+            <div class="card">
+                <p>Sample Garbage Collection Route</p>
+                <p>Barangay Hall → Zone 1 → Zone 2 → Zone 3</p>
+            </div>
+        </section>
+
+        <!-- REWARDS -->
+        <section id="rewards">
+            <h2>QR Code Rewards</h2>
+
+            <div class="card">
+                <h3>Your Reward Points: 120</h3>
+                <p>Scan the designated QR code after proper waste segregation.</p>
+                <button onclick="earnPoints()">Demonstrate Earn Points</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
